@@ -58,6 +58,8 @@ public class InterfaceImpl implements MyInterface {
 		MyInterface obj = new InterfaceImpl();
 		obj.method1();
 		obj.method(50);
+
+		System.out.println("call Interface variable : " + MyInterface.a);
 	}
 
 }
